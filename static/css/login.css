@@ -1,0 +1,54 @@
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+}
+h1{
+  color: white;
+}
+button {
+  background-color: #0D4C92;
+  
+  color: white;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  border-radius: 15px;
+}
+form {
+  background-color: #CFF5E7;
+  margin:10px;
+  border-radius: 30px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid #0D4C92;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+button:hover {
+  opacity: 0.7;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px;
+}
+
+.container {
+  padding: 25px;
+  margin-bottom: 30px;
+}
+.login-corp{
+  background-color: #59C1BD;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+}
+.login-btn{
+  
+}

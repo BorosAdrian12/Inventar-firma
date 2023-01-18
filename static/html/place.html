@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <style>
+      :root{
+         --btnbord:4px;
+      }
+      .itemplace {
+        width: 300px;
+        background-color: #59c1bd;
+        border-radius: 30px;
+        padding: 2px;
+      }
+      .itemplace:hover {
+        border: 2px #0d4c92 solid;
+        padding: 0px;
+      }
+      .itemplace-content {
+        padding: 10px;
+      }
+      .itemplace-content > .name {
+        background-color: #cff5e7;
+        width: 30%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+      .itemplace-content-data {
+        background-color: #0d4c92;
+        padding: 5px;
+        max-width: 90%;
+        border-radius: 3px;
+        color: white;
+      }
+      .spaceout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .btn-item{
+         border-radius: 5px;   
+         padding: 10px;
+      }
+      .greenbtn{
+         border: var(--btnbord) rgb(36, 255, 164) solid;
+         background-color: rgb(5, 245, 5);
+      }
+      .greenbtn:hover{
+         border: var(--btnbord) rgb(0, 124, 0) solid;
+      }
+      
+      .redbtn{
+         border: var(--btnbord) rgb(255, 126, 67) solid;
+         background-color: rgb(241, 41, 41);
+      }
+      .redbtn:hover{
+         border:  rgb(114, 0, 0) solid var(--btnbord);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="itemplace">
+      <center>
+        <div onclick="">
+          <div class="itemplace-content">
+            <div class="name">nume</div>
+            <div class="itemplace-content-data">${nume}</div>
+          </div>
+          <div class="itemplace-content">
+            <div class="name">serie:</div>
+            <div class="itemplace-content-data">${serie}</div>
+          </div>
+          <div class="itemplace-content">
+            <div class="name">locatie</div>
+            <div class="itemplace-content-data">${locatie}</div>
+          </div>
+        </div>
+        <div class="itemplace-content spaceout">
+          <button class="btn-item greenbtn" onclick="">edit</button>
+          <button class="btn-item redbtn" onclick="">delete</button>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>

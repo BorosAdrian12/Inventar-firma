@@ -1,0 +1,1 @@
+console.log("din fisierul test.js");

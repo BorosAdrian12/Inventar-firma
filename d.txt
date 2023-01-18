@@ -1,0 +1,5 @@
+mysql-client-8.0
+mysql-client-core-8.0
+mysql-client
+mysql-server-8.0
+mysql-server-core-8.0

@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <style>
+      .item-form{
+        background-color: bisque;
+        width: 400px;
+        border-radius: 20px;
+      }
+      .item-form h2{
+        background-color: blue;
+        color:white;
+        width: 60px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .item-form button{
+        padding:5px 10px;
+        border-radius: 5px;
+        border:0px;
+        background-color: red;
+      }
+      .item-form button:hover{
+        background-color: bisque;
+      }
+      .submit-item{
+        float: 30px right;
+      }
+      .item-form-data{
+        width: 100%;
+        border-spacing:0px 10px;
+      }
+      .item-form-data input,.item-form-data select{
+        width: 80%;
+        float:left;
+        height: 25px;
+        border-radius: 15px;
+        border:1px blue solid;
+        padding: 3px;
+      }
+      .item-form-data >tbody>tr:nth-child(-n+4)>th:nth-child(1){
+        float: right;
+        background-color: blue;
+        color:white;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form class="item-form">
+        <br>
+        <center>
+          <h2>Item</h2>
+        </center>
+        <table class="item-form-data">
+          <tr>
+            <th>name :</th>
+            <th>
+              <input
+                type="text"
+                placeholder="Enter the name of item"
+                name="name"
+                required
+                id="item-form-name"
+              />
+            </th>
+          </tr>
+          <tr>
+            <th>type :</th>
+            <th>
+              <select name="" id="item-form-type">
+              </select>
+            </th>
+          </tr>
+          <tr>
+            <th><label>where it will be ? : </label></th>
+            <th>
+              <select name="" id="item-form-type">
+                <option value="">deposit</option>
+                <option value="">user</option>
+              </select>
+            </th>
+          </tr>
+          <tr>
+            <th>select</th>
+            <th>
+              <select name="" id="item-form-selectData"></select>
+            </th>
+          </tr>
+          <tr>
+            <th></th>
+            <th><button type="submit" class="submit-item">submit</button></th>
+          </tr>
+        </table>
+        <br>
+      </form>
+      
+    </div>
+  </body>
+</html>
